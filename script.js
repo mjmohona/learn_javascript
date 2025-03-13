@@ -13,7 +13,6 @@ const person = {
     }
 };
 
-
 // Accessing object properties
 console.log(person.name); // Output: Alice
 console.log(person["age"]); // Output: 25
