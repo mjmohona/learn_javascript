@@ -15,6 +15,7 @@ const person = {
 
 // Accessing object properties
 console.log(person.name); // Output: Alice
+console.log(person.name); // Output: Alice
 console.log(person["age"]); // Output: 25
 console.log(person.hobbies[0]); // Output: reading
 console.log(person.address.city); // Output: New York
