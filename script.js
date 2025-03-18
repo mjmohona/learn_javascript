@@ -12,7 +12,6 @@ const person = {
         console.log(`Hello, my name is ${this.name}`);
     }
 };
-
 // Accessing object properties
 console.log(person.name); // Output: Alice
 console.log(person.name); // Output: Alice
@@ -34,3 +33,5 @@ console.log(person.age); // Output: 26
 // Deleting a property
 delete person.isStudent;
 console.log(person.isStudent); // Output: undefined
+
+
