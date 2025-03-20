@@ -9,6 +9,7 @@ const client = new OpenAI({
     apiKey: OPENAI_API_KEY,
 });
 
+
 //tools
 function getWeatherDetails(city = ''){
     if (city.toLowerCase() === "Dhaka") return '10°C';
