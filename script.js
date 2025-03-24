@@ -34,4 +34,8 @@ console.log(person.age); // Output: 26
 delete person.isStudent;
 console.log(person.isStudent); // Output: undefined
 
+// Deleting a property
+delete person.isStudent;
+console.log(person.isStudent); // Output: undefined
+
 
