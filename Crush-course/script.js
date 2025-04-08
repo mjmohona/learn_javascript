@@ -12,14 +12,16 @@ const display = document.querySelector(".result");
 const thanks = document.querySelector(".thanks");
 
 // Normal function that works perfectly
-function show(){
-    display.innerHTML = this.value;
-    setTimeout(function (){
-        thanks.innerHTML = `you have typed: ${this.value}`;
-    }, 1000);
-}
-// const showme = () => {
+// function show(){
 //     display.innerHTML = this.value;
-// };
+//     var self = this;
+//     setTimeout(function (){
+//         thanks.innerHTML = `you have typed: ${self.value}`;
+//     }, 1000);
+// }
 
-searchInput.addEventListener("Keyup", show);
+
+searchInput.addEventListener("Keyup", () => {
+    display.innerHTML = this.value;
+    }
+);
