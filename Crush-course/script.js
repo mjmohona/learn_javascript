@@ -7,9 +7,9 @@
 // };
 // javasctipt.printLibraries();
 
-const searchInput = document.querySelector(".search");
-const display = document.querySelector(".result");
-const thanks = document.querySelector(".thanks");
+// const searchInput = document.querySelector(".search");
+// const display = document.querySelector(".result");
+// const thanks = document.querySelector(".thanks");
 
 // Normal function that works perfectly
 // function show(){
@@ -19,9 +19,18 @@ const thanks = document.querySelector(".thanks");
 //         thanks.innerHTML = `you have typed: ${self.value}`;
 //     }, 1000);
 // }
+// searchInput.addEventListener("Keyup", () => {
+//     display.innerHTML = this.value;
+//     }
+// );
 
+let country = "Bangladesh";
+let a = 17;
+let b = 2;
+let sentence = `i love ${country} and it's population is ${a + b} crore`;
+console.log(sentence);
 
-searchInput.addEventListener("Keyup", () => {
-    display.innerHTML = this.value;
-    }
-);
+let x = 123;
+x.toString();
+(123).toString();
+(100 + 23).toString();
