@@ -24,13 +24,17 @@
 //     }
 // );
 
-let country = "Bangladesh";
-let a = 17;
-let b = 2;
-let sentence = `i love ${country} and it's population is ${a + b} crore`;
-console.log(sentence);
+// let country = "Bangladesh";
+// let a = 17;
+// let b = 2;
+// let sentence = `i love ${country} and it's population is ${a + b} crore`;
+// console.log(sentence);
+//
+// let x = 123;
+// x.toString();
+// (123).toString();
+// (100 + 23).toString();
 
-let x = 123;
-x.toString();
-(123).toString();
-(100 + 23).toString();
+const cars = ["BMW", "Volvo", "Saab"];
+// document.getElementById("demo").innerHTML = cars;
+console.log(typeof cars);
