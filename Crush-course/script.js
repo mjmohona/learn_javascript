@@ -35,6 +35,7 @@
 // (123).toString();
 // (100 + 23).toString();
 
+
 const cars = ["BMW", "Volvo", "Saab"];
 // document.getElementById("demo").innerHTML = cars;
 console.log(typeof cars);
