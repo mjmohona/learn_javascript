@@ -1,4 +1,4 @@
-let arr = [2, 5, 4, 6, 7];
+let arr = [10, 5, 15, 25, 30];
 
 let highest = arr[0];
 let secondHighest = arr[0];
